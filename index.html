@@ -17,7 +17,14 @@
       }
 
       @keyframes spin {
-        from: { transform:  }
+        from {
+          -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg) scale(0.6);
+          transform: translate3d(-50%, -50%, 0) rotate(0deg) scale(0.6);
+        }
+        to {
+          -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg) scale(0.6);
+          transform: translate3d(-50%, -50%, 0) rotate(360deg) scale(0.6);
+        }
       }
 
       img {
